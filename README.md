@@ -1,6 +1,7 @@
 # Hello, I'm Daniel! 👋
 
 ## Full Stack Developer | Specialist in Next.js, Astro, and React
+![Metrics](/github-metrics.svg)
 
 I'm a passionate web developer with experience in modern front-end and back-end technologies. I love creating efficient, scalable, and visually appealing web applications.
 
