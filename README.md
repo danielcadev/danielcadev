@@ -2,11 +2,11 @@
 
 ## Mis Estadísticas de GitHub
 
-![Estadísticas de GitHub](https://readme-danielcadev.vercel.app/api?username=danielcadev&show_icons=true&theme=radical)
-
-## Lenguajes Más Usados
+![Estadísticas de GitHub](https://readme-danielcadev.vercel.app/api?username=danielcadev&show_icons=true&theme=radical) ## Lenguajes Más Usados
 
 ![Top Langs](https://readme-danielcadev.vercel.app/api/top-langs/?username=danielcadev&layout=compact&theme=radical)
+
+
 
 ## Racha de Contribuciones
 
