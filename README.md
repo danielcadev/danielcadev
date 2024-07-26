@@ -19,9 +19,9 @@ Soy un apasionado desarrollador web con experiencia en tecnologías modernas de 
 
 ### 📊 Mis Estadísticas de GitHub
 
-![Estadísticas de GitHub de Daniel](https://github-readme-danielcadev.vercel.app/api?username=danielcadev&show_icons=true&theme=graywhite&hide_border=true&include_all_commits=true&count_private=true&custom_title=Estadísticas%20de%20Daniel&hide=contribs,prs&layout=compact&langs_count=6&hide_title=true&hide_rank=true&card_width=400&line_height=24&text_bold=false&text_color=333&icon_color=333&ring_color=333&bg_color=ffffff)
+![Estadísticas de GitHub de Daniel](https://readme-danielcadev.vercel.app/api?username=danielcadev&show_icons=true&theme=graywhite&hide_border=true&include_all_commits=true&count_private=true&custom_title=Estadísticas%20de%20Daniel&hide=contribs,prs&layout=compact&langs_count=6&hide_title=true&hide_rank=true&card_width=400&line_height=24&text_bold=false&text_color=333&icon_color=333&ring_color=333&bg_color=ffffff)
 
-![Lenguajes más usados por Daniel](https://github-readme-danielcadev.vercel.app/api/top-langs/?username=danielcadev&layout=compact&theme=graywhite&hide_border=true&langs_count=6&hide_title=true&card_width=400&text_color=333&bg_color=ffffff)
+![Lenguajes más usados por Daniel](https://readme-danielcadev.vercel.app/api/top-langs/?username=danielcadev&layout=compact&theme=graywhite&hide_border=true&langs_count=6&hide_title=true&card_width=400&text_color=333&bg_color=ffffff)
 
 ### 🌟 Proyectos Destacados
 - [Nombre del Proyecto 1](enlace): Breve descripción del proyecto.
