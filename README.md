@@ -1,4 +1,4 @@
-# ¡Hola! Soy [Tu Nombre] 👋
+# ¡Hola! Soy Daniel 👋
 
 ## Mis Estadísticas de GitHub
 
