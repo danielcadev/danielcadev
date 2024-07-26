@@ -2,23 +2,10 @@
 
 ## Mis Estadísticas de GitHub
 
-![Estadísticas de GitHub](https://readme-danielcadev.vercel.app/api?username=danielcadev&show_icons=true&theme=radical) ## Lenguajes Más Usados
-
-![Top Langs](https://readme-danielcadev.vercel.app/api/top-langs/?username=danielcadev&layout=compact&theme=radical)
+![Estadísticas de GitHub](https://readme-danielcadev.vercel.app/api?username=danielcadev&show_icons=true&theme=radical) ## Lenguajes Más Usados ![Top Langs](https://readme-danielcadev.vercel.app/api/top-langs/?username=danielcadev&layout=compact&theme=radical)
 
 
 
-## Racha de Contribuciones
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=danielcadev&theme=radical)
-
-## Trofeos de GitHub
-
-![Trofeos](https://github-profile-trophy.vercel.app/?username=danielcadev&theme=radical&column=7)
-
-## Mis Repositorios Destacados
-
-[![Repo Card](https://readme-danielcadev.vercel.app/api/pin/?username=danielcadev&repo=nombre-del-repo&theme=radical)](https://github.com/danielcadev/nombre-del-repo)
 
 ## Sobre mí
 - 🔭 Actualmente estoy trabajando en ...
