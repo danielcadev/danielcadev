@@ -24,4 +24,4 @@ I am a developer focused on building scalable, type-safe systems and exploring t
 
 ## 📫 How to Reach Me
 - **Email:** daniel.ca.pe207@gmail.com
-- **Portfolio:** mitiqueteonline.com, conociendocolombia.com, tripeuropa.eu
+- **Portfolio:** mitiqueteonline.com, conociendocolombia.com, b2b.tripeuropa.com
