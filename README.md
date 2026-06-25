@@ -57,7 +57,7 @@ An international B2B tour-operator platform built with Next.js, Prisma, PostgreS
 ## Technical Background
 
 **Languages:** TypeScript, JavaScript, Python, Java, C, C++, C#, PHP
-**Frontend:** Next.js, React, Tailwind CSS, App Router, SSR, React Server Components
+**Frontend:** Next.js, React, Astro, Tailwind CSS, App Router, SSR, React Server Components
 **Backend and Data:** Node.js, Prisma, PostgreSQL, Better Auth, REST APIs, Server Actions
 **AI-Assisted Development:** Claude Code, OpenAI Codex, GPT-based coding workflows, Gemini API, OpenRouter
 **Infrastructure:** Docker, Git, Linux/VPS, Vercel, AWS S3, Coolify, Hetzner
