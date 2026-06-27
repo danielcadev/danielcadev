@@ -32,9 +32,9 @@ CMS Nova is a headless content management architecture focused on dynamic conten
 
 I work on production travel technology platforms built with Next.js, React, Prisma, PostgreSQL, and AWS S3. These systems include booking workflows, content management, media pipelines, authentication flows, database migrations, and operational tooling for tourism-related services.
 
-### Vibe-Guard
+### Secure
 
-Vibe-Guard is a policy-centered auditing approach for evaluating AI-generated code changes against repository-wide security invariants before production deployment. The approach is designed to detect authorization drift, exposed routes, unsafe secrets, debug surfaces, and architectural-boundary violations introduced during AI-assisted development.
+Secure is a production-security review and hardening workflow for evaluating AI-generated code changes against repository-wide security invariants before deployment. It focuses on authentication trust, authorization dominance, tenant and owner boundaries, exposed routes, unsafe secrets, debug surfaces, storage flows, webhooks, payments, AI/PDF processing, and architectural-boundary violations introduced during AI-assisted development.
 
 ## Selected Projects
 
