@@ -1,78 +1,65 @@
 # Daniel Castrillon
 
-Software Engineering Student
-Software Architecture · AI-Assisted Software Engineering · Security Research
+**Software Engineer | Platform Architecture | Application Security**
 
-I am a software engineering student focused on the design, implementation, and security analysis of production software systems. My work combines practical experience building large-scale web platforms with independent research on the structural risks introduced by AI-assisted software development.
+[Email](mailto:daniel.ca.pe207@gmail.com) | [Mitiquete](https://mitiqueteonline.com) | [Conociendo Colombia](https://conociendocolombia.com) | Madrid, Colombia
 
-I have built and maintained more than 450,000 verified lines of source code across owned repositories, including production Next.js and React systems, CMS architectures, travel technology platforms, and academic projects in C and C++.
+I design, ship, and harden production software. I currently lead software architecture and AI-assisted engineering at Mitiquete SAS, where I work across booking systems, content platforms, internal operations, authentication, data, media, and cloud delivery.
 
-## Research Interests
+My strongest work sits at the intersection of full-stack platform engineering, repository-scale security, and disciplined AI-assisted development. I use coding agents as engineering tools, with typed contracts, automated gates, authorization review, and human validation around every production change.
 
-My current research focuses on the security limitations of AI-assisted development workflows, particularly in repository-scale systems where locally correct generated changes may weaken global security properties.
+## What I Deliver
 
-Areas of interest include:
+- Production platforms built with Next.js, TypeScript, React, PostgreSQL, Prisma, and AWS.
+- Reusable CMS and administration architecture with dynamic schemas, localization, media workflows, and role-based access control.
+- Security reviews focused on authentication, authorization dominance, Server Actions, APIs, secrets, storage, and tenant boundaries.
+- Linux-based development and deployment workflows using Docker, Fedora, VPS infrastructure, Vercel, Coolify, and Hetzner.
+- AI-assisted engineering workflows that preserve type safety, reviewability, and repository-wide invariants.
 
-* Authorization-boundary erosion in generated code
-* Route and Server Action exposure in Next.js applications
-* Secret handling and debug-surface persistence
-* Policy enforcement across large codebases
-* Structural security auditing for AI-generated changes
-* Human-in-the-loop validation of coding-agent outputs
+## Selected Work
 
-I presented work on structural security in AI-assisted software systems at the Max Planck Institute for Security and Privacy. The presentation covered trust boundaries, route visibility, authorization policy enforcement, and limitations of current coding-agent evaluation benchmarks.
+| System | Engineering scope | Evidence |
+| --- | --- | --- |
+| Mitiquete travel platform | Platform architecture, booking and operational workflows, CMS, authentication, PostgreSQL, AWS-backed media and email, deployment, and security hardening | [mitiqueteonline.com](https://mitiqueteonline.com) |
+| Conociendo Colombia | Tourism content platform, structured publishing, localization, media workflows, and shared platform components | [conociendocolombia.com](https://conociendocolombia.com) |
+| TripEuropa B2B | Lead development for an international tour-operator portal; architecture, typed data flows, production readiness, and post-deployment security remediation | [tripeuropa.com](https://tripeuropa.com) |
+| CMS Nova | Reusable headless CMS foundation with schema-driven content, hybrid persistence, template tooling, and role-based administration | [public template](https://github.com/danielcadev/cms-nova-template) |
+| Secure | Security review and hardening workflow for AI-generated changes across authentication, authorization, secrets, storage, webhooks, payments, and architectural boundaries | Private production tooling |
 
-## Current Work
+## Security And Research
 
-### CMS Nova
+- Documented and drove remediation of 24 high-severity or critical findings across production systems.
+- Designed Zero-Trust RBAC controls across Server Actions and REST endpoints.
+- Delivered an invited talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
+- Developed a policy-centered review approach for checking generated changes against repository-wide security invariants.
 
-CMS Nova is a headless content management architecture focused on dynamic content schemas, localization, role-based access control, Prisma-based persistence, and maintainable administrative workflows. The project serves as a practical case study for studying security, modularity, and long-term maintainability in AI-assisted software systems.
+## Open Source
 
-### Mitiquete and Conociendo Colombia
+- Contributing an updater compatibility fix to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux/pull/991), covering legacy update bundles, Linux package rebuilds, and regression tests.
+- Publishing [CMS Nova Template](https://github.com/danielcadev/cms-nova-template) as a reusable foundation for typed content and administration workflows.
 
-I work on production travel technology platforms built with Next.js, React, Prisma, PostgreSQL, and AWS S3. These systems include booking workflows, content management, media pipelines, authentication flows, database migrations, and operational tooling for tourism-related services.
+## Engineering Stack
 
-### Secure
+- **Primary:** TypeScript, JavaScript, Next.js, React, Node.js, PostgreSQL, Prisma
+- **Systems and tooling:** Go, Python, C#, Linux, Docker, Git, pnpm/Turborepo
+- **Cloud and delivery:** AWS S3/SES, Vercel, Coolify, Hetzner, VPS operations
+- **Security:** Zero-Trust RBAC, authorization-boundary review, Server Action and API security, secret handling, structural audits
+- **AI engineering:** OpenAI Codex/GPT, Claude Code, Gemini, OpenRouter, context construction, task decomposition, failure-mode analysis, human-in-the-loop validation
 
-Secure is a production-security review and hardening workflow for evaluating AI-generated code changes against repository-wide security invariants before deployment. It focuses on authentication trust, authorization dominance, tenant and owner boundaries, exposed routes, unsafe secrets, debug surfaces, storage flows, webhooks, payments, AI/PDF processing, and architectural-boundary violations introduced during AI-assisted development.
+## Evidence And Scale
 
-## Selected Projects
+A conservative July 2026 audit measures **300k+ unique, non-generated source-code lines across 18 owned repositories**. The figure is supporting context, not a productivity or quality score. It excludes dependencies, lockfiles, documentation, generated and minified files, build output, and duplicate files.
 
-### CMS Nova
+[Read the measurement methodology, exclusions, and aggregate breakdown.](./CODEBASE_METRICS.md)
 
-A reusable headless CMS and administrative architecture with dynamic content models, localization support, schema-driven workflows, and strict type-safety across the application stack.
+## Background
 
-### Mitiquete SAS
+I am completing a B.Sc. in Software Engineering at Politecnico Grancolombiano (expected 2027, GPA 4.59/5.0). Education supports my work; production engineering, technical ownership, and security outcomes define my professional profile.
 
-A multi-platform travel ecosystem for B2B booking and tourism operations. The system includes production architecture, database migrations, media infrastructure, authentication flows, and security hardening.
-
-### Conociendo Colombia and Región Colombia
-
-Tourism and content platforms built with Next.js, React, Prisma, PostgreSQL, and CMS-driven publishing workflows.
-
-### TripEuropa B2B
-
-An international B2B tour-operator platform built with Next.js, Prisma, PostgreSQL, and AI-assisted development workflows. I led architecture decisions and performed security review of Server Actions, API surfaces, and authentication-sensitive flows.
-
-## Technical Background
-
-**Languages:** TypeScript, JavaScript, Python, Java, C, C++, C#, PHP
-**Frontend:** Next.js, React, Astro, Tailwind CSS, App Router, SSR, React Server Components
-**Backend and Data:** Node.js, Prisma, PostgreSQL, Better Auth, REST APIs, Server Actions
-**AI-Assisted Development:** Claude Code, OpenAI Codex, GPT-based coding workflows, Gemini API, OpenRouter
-**Infrastructure:** Docker, Git, Linux/VPS, Vercel, AWS S3, Coolify, Hetzner
-**Security:** Zero-Trust RBAC, authorization-boundary review, API security, Server Action security, secret handling, structural security audits
-
-## Academic Background
-
-B.Sc. Software Engineering, Politécnico Grancolombiano
-Expected graduation: 2027
-GPA: 4.59 / 5.0
-
-My academic interests include software architecture, secure software engineering, databases, algorithms, verification, and the reliability of AI-assisted development environments.
+Spanish is my native language, and I work professionally in English.
 
 ## Contact
 
-Email: [daniel.ca.pe207@gmail.com](mailto:daniel.ca.pe207@gmail.com)
-GitHub: github.com/danielcadev
-Portfolio: mitiqueteonline.com · conociendocolombia.com · b2b.tripeuropa.com
+- Email: [daniel.ca.pe207@gmail.com](mailto:daniel.ca.pe207@gmail.com)
+- GitHub: [danielcadev](https://github.com/danielcadev)
+- Production portfolio: [Mitiquete](https://mitiqueteonline.com) | [Conociendo Colombia](https://conociendocolombia.com) | [TripEuropa](https://tripeuropa.com)
