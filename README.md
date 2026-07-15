@@ -22,7 +22,7 @@ I use coding agents as engineering tools, with typed contracts, automated verifi
 | Codex Desktop Linux | Fixed incomplete fallback updater bundles used by manifest-less source checkouts, restoring required Cargo workspace and launcher inputs for Linux package rebuilds | [Merged upstream PR #991](https://github.com/ilysenko/codex-desktop-linux/pull/991) |
 | Secure Skill | Open Agent Skill for evidence-backed production security review, repository mapping, hardening, verification, and benchmark-driven coverage | [usesecure/secure-skill](https://github.com/usesecure/secure-skill) |
 | CMS Nova | Reusable headless CMS foundation with typed, schema-driven content, hybrid persistence, template tooling, and role-based administration | [cms-nova-template](https://github.com/danielcadev/cms-nova-template) |
-| Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, AWS-backed media, and deployment workflows | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.com) |
+| Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, AWS-backed media, and deployment workflows | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
 ## Upstream Contribution
 
