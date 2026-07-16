@@ -19,20 +19,19 @@ I use coding agents as engineering tools, with typed contracts, automated verifi
 
 | Project | Engineering scope | Evidence |
 | --- | --- | --- |
-| Codex Desktop Linux | Open-source support for Linux updater compatibility, package rebuilds, and cross-distribution reliability | [Merged upstream PR #991](https://github.com/ilysenko/codex-desktop-linux/pull/991) |
+| Codex Desktop Linux | Open-source support for Linux updater compatibility, package rebuilds, and cross-distribution reliability | [Contributor](https://github.com/ilysenko/codex-desktop-linux/pull/991) |
 | Secure Skill | Open Agent Skill for evidence-backed production security review, repository mapping, hardening, verification, and benchmark-driven coverage | [usesecure/secure-skill](https://github.com/usesecure/secure-skill) |
 | CMS Nova | Reusable headless CMS foundation with typed, schema-driven content, hybrid persistence, template tooling, and role-based administration | [cms-nova-template](https://github.com/danielcadev/cms-nova-template) |
 | Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, AWS-backed media, and deployment workflows | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
-## Upstream Contribution
+## Open Source Contribution
 
-My contribution to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux) was merged on July 15, 2026.
+I contribute to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux), helping improve updater compatibility, Linux package rebuilds, and cross-distribution reliability.
 
-- Traced Linux updater rebuild failures to a stale fallback bundle manifest.
-- Added the missing Rust workspace member and Python launcher input.
-- Extended regression fixtures and assertions for both required files.
-- Validated the change with `cargo check`, 261 Rust tests, shell smoke tests, and an end-to-end Fedora 44 RPM rebuild.
-- Merged as commit [`6a9ccd6`](https://github.com/ilysenko/codex-desktop-linux/commit/6a9ccd6f600f1147c3d68c894c0dc8a4cc7a69c7).
+- Investigate and fix Linux updater and package rebuild failures.
+- Contribute Rust changes and regression coverage for update workflows.
+- Validate changes with Rust tests, shell smoke tests, and Fedora package rebuilds.
+- Continue supporting compatibility and reliability across Linux distributions.
 
 ## Security And Architecture
 
