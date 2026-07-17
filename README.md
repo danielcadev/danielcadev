@@ -20,14 +20,14 @@ I use coding agents as engineering tools, with typed contracts, automated verifi
 
 | Project | Engineering scope | Evidence |
 | --- | --- | --- |
-| Codex Desktop Linux | Upstream Linux reliability work spanning Rust updater inputs, per-user browser integration, CI hardening, dependency maintenance, and regression coverage | [5 merged PRs](https://github.com/ilysenko/codex-desktop-linux/pulls?q=is%3Apr+author%3Adanielcadev+is%3Amerged) |
+| Codex Desktop Linux | Ongoing upstream collaboration on Linux reliability, Rust updater inputs, per-user browser integration, CI hardening, dependency maintenance, and regression coverage | [Merged contributions](https://github.com/ilysenko/codex-desktop-linux/pulls?q=is%3Apr+author%3Adanielcadev+is%3Amerged) |
 | UseSecure | Rust analyzer and reproducible benchmark infrastructure, paired with an Open Agent Skill for evidence-backed security review and hardening | [Engine](https://github.com/usesecure/secure-engine) · [Bench](https://github.com/usesecure/secure-bench) · [Skill](https://github.com/usesecure/secure-skill) |
 | CMS Nova | Reusable headless CMS foundation with typed, schema-driven content, hybrid persistence, template tooling, and role-based administration | [cms-nova-template](https://github.com/danielcadev/cms-nova-template) |
 | Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, AWS-backed media, and deployment workflows | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
 ## Open Source Contribution
 
-I contribute to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux), with five upstream PRs merged across Rust, JavaScript, shell tooling, Nix dependencies, and GitHub Actions.
+I am an ongoing contributor to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux), working across Rust, JavaScript, shell tooling, Nix dependencies, and GitHub Actions.
 
 - Repaired updater fallback inputs and per-user browser-integration socket discovery.
 - Hardened privileged CI actions and updated vulnerable native-module build dependencies.
