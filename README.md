@@ -4,13 +4,14 @@
 
 [Portfolio](https://danielcadev.github.io) | [Email](mailto:daniel.ca.pe207@gmail.com) | [Secure](https://github.com/usesecure) | Madrid, Colombia
 
-I build and harden production software across Linux tooling, full-stack platforms, cloud delivery, and application security. My work combines upstream open-source contributions, technical ownership of production systems, and disciplined AI-assisted engineering.
+I build and harden production software across Linux tooling, Rust security infrastructure, full-stack platforms, cloud delivery, and application security. My work combines upstream open-source contributions, technical ownership of production systems, and disciplined AI-assisted engineering.
 
 I use coding agents as engineering tools, with typed contracts, automated verification, authorization review, and human validation around production changes. The goal is not faster code generation by itself; it is reliable software with evidence behind it.
 
 ## Current Focus
 
 - Linux desktop reliability, packaging, update workflows, and cross-distribution compatibility.
+- Local-first static analysis, reproducible security measurement, and evidence contracts in Rust.
 - Security review and hardening for AI-generated and rapidly evolving codebases.
 - Platform architecture across authentication, data, media, administration, and cloud delivery.
 - Reusable developer tooling with measurable tests and explicit operational boundaries.
@@ -19,19 +20,18 @@ I use coding agents as engineering tools, with typed contracts, automated verifi
 
 | Project | Engineering scope | Evidence |
 | --- | --- | --- |
-| Codex Desktop Linux | Open-source support for Linux updater compatibility, package rebuilds, and cross-distribution reliability | [Contributor](https://github.com/ilysenko/codex-desktop-linux/pull/991) |
-| Secure Skill | Open Agent Skill for evidence-backed production security review, repository mapping, hardening, verification, and benchmark-driven coverage | [usesecure/secure-skill](https://github.com/usesecure/secure-skill) |
+| Codex Desktop Linux | Upstream Linux reliability work spanning Rust updater inputs, per-user browser integration, CI hardening, dependency maintenance, and regression coverage | [5 merged PRs](https://github.com/ilysenko/codex-desktop-linux/pulls?q=is%3Apr+author%3Adanielcadev+is%3Amerged) |
+| UseSecure | Rust analyzer and reproducible benchmark infrastructure, paired with an Open Agent Skill for evidence-backed security review and hardening | [Engine](https://github.com/usesecure/secure-engine) · [Bench](https://github.com/usesecure/secure-bench) · [Skill](https://github.com/usesecure/secure-skill) |
 | CMS Nova | Reusable headless CMS foundation with typed, schema-driven content, hybrid persistence, template tooling, and role-based administration | [cms-nova-template](https://github.com/danielcadev/cms-nova-template) |
 | Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, AWS-backed media, and deployment workflows | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
 ## Open Source Contribution
 
-I contribute to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux), helping improve updater compatibility, Linux package rebuilds, and cross-distribution reliability.
+I contribute to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux), with five upstream PRs merged across Rust, JavaScript, shell tooling, Nix dependencies, and GitHub Actions.
 
-- Investigate and fix Linux updater and package rebuild failures.
-- Contribute Rust changes and regression coverage for update workflows.
-- Validate changes with Rust tests, shell smoke tests, and Fedora package rebuilds.
-- Continue supporting compatibility and reliability across Linux distributions.
+- Repaired updater fallback inputs and per-user browser-integration socket discovery.
+- Hardened privileged CI actions and updated vulnerable native-module build dependencies.
+- Added regression coverage and validated changes through Rust tests, script tests, and Fedora package rebuilds.
 
 ## Security And Architecture
 
@@ -43,7 +43,7 @@ I contribute to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-
 
 ## Engineering Stack
 
-- **Languages:** TypeScript, JavaScript, Go, Python, C#, SQL, Java, C, C++
+- **Languages:** TypeScript, Rust, JavaScript, Go, Python, C#, SQL, Java, C, C++
 - **Web and data:** Next.js, React, Astro, Node.js, PostgreSQL, Prisma, Tailwind CSS
 - **Systems and delivery:** Linux, Fedora, Docker, Git, pnpm/Turborepo, Vercel, Coolify, Hetzner
 - **Cloud:** AWS S3, SES, VPS operations, media and deployment workflows
@@ -52,7 +52,7 @@ I contribute to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-
 
 ## Evidence And Scale
 
-A conservative July 2026 audit measures **300k+ unique, non-generated source-code lines across 18 owned repositories**. This is supporting context, not a productivity score. It excludes dependencies, lockfiles, documentation, generated and minified files, build output, and duplicate files.
+A conservative July 2026 audit measures **370k+ unique, non-generated source-code lines across 21 maintained repositories**, including **55k+ lines of Rust**. This is supporting context, not a productivity score. It excludes dependencies, lockfiles, documentation, generated and minified files, build output, and duplicate files.
 
 [Read the measurement methodology, exclusions, and aggregate breakdown.](./CODEBASE_METRICS.md)
 

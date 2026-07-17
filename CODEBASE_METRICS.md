@@ -4,7 +4,7 @@ This document explains the codebase-scale figure used in my GitHub profile. Line
 
 ## July 2026 Snapshot
 
-The audit covered 18 repositories owned by my GitHub account. Seven active repositories were measured from local worktrees; the remaining repositories were measured from shallow default-branch checkouts containing source files only.
+The audit covered 21 repositories maintained across my GitHub account and the UseSecure organization. Ten active repositories were measured from local worktrees; the remaining repositories were measured from shallow default-branch checkouts containing source files only.
 
 The counter was `scc` 3.7.0.
 
@@ -12,13 +12,13 @@ The counter was `scc` 3.7.0.
 
 | Metric | Result |
 | --- | ---: |
-| Unique source files | 2,407 |
-| Code lines | 309,389 |
-| Comment lines | 6,078 |
-| Blank lines | 28,934 |
-| Physical lines | 344,401 |
+| Unique source files | 3,094 |
+| Code lines | 374,221 |
+| Comment lines | 10,092 |
+| Blank lines | 32,498 |
+| Physical lines | 416,811 |
 
-The profile rounds the code result down to **300k+**.
+The profile rounds the code result down to **370k+**.
 
 ### Per-Repository Aggregate
 
@@ -26,11 +26,12 @@ This view deduplicates files inside each repository and then adds the repository
 
 | Repository group | Repositories | Source files | Code lines |
 | --- | ---: | ---: | ---: |
-| Production travel platforms | 5 | 1,958 | 269,743 |
+| Production travel platforms | 5 | 1,515 | 224,916 |
 | Reusable CMS and platform foundations | 2 | 280 | 29,592 |
 | Desktop application | 1 | 99 | 8,718 |
-| Other owned applications and earlier work | 10 | 264 | 18,676 |
-| **Total** | **18** | **2,601** | **326,729** |
+| Security tooling | 3 | 731 | 64,550 |
+| Other owned applications and earlier work | 10 | 725 | 64,178 |
+| **Total** | **21** | **3,350** | **391,954** |
 
 ## Language Breakdown
 
@@ -38,19 +39,23 @@ The globally deduplicated result contains:
 
 | Language | Files | Code lines |
 | --- | ---: | ---: |
-| TypeScript | 2,136 | 280,552 |
+| TypeScript | 2,442 | 285,291 |
+| Rust | 87 | 55,394 |
 | C# | 98 | 8,718 |
-| CSS | 25 | 6,918 |
-| Go | 16 | 4,427 |
-| JavaScript | 44 | 3,104 |
-| Astro | 26 | 2,171 |
-| HTML | 7 | 1,410 |
+| CSS | 25 | 6,185 |
+| JavaScript | 274 | 5,226 |
+| Go | 23 | 4,596 |
+| Python | 27 | 3,535 |
+| Astro | 24 | 2,317 |
+| HTML | 6 | 1,409 |
 | SQL | 52 | 1,156 |
-| Python | 3 | 933 |
+| JSX | 31 | 289 |
+| Shell | 2 | 63 |
+| Java | 3 | 42 |
 
 ## Included Source Types
 
-The audit includes application and systems source files such as TypeScript, JavaScript, Go, Python, C#, SQL, Astro, HTML, and CSS. Structured configuration and documentation are not included in the published code figure.
+The audit includes application and systems source files such as TypeScript, Rust, JavaScript, Go, Python, C#, SQL, Astro, HTML, and CSS. Structured configuration and documentation are not included in the published code figure.
 
 ## Exclusions
 
