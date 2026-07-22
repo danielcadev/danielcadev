@@ -2,23 +2,23 @@
 
 This document explains the codebase-scale figure used in my GitHub profile. Lines of code are context about the systems I have owned and maintained, not a measure of engineering quality or individual productivity.
 
-## July 2026 Snapshot
+## July 22, 2026 Snapshot
 
-The audit covered 21 repositories maintained across my GitHub account and the UseSecure organization. Ten active repositories were measured from local worktrees; the remaining repositories were measured from shallow default-branch checkouts containing source files only.
+The audit covered the same cohort of 21 repositories maintained across my GitHub account and the UseSecure organization as the previous July snapshot. Every repository was measured from a clean, shallow checkout of its default branch, avoiding local build output and uncommitted work.
 
-The counter was `scc` 3.7.0.
+The counter was `scc` 3.7.0. The official Linux x86-64 release archive was verified before use with SHA-256 `3d9d65b00ca874c2b29151abe7e1480736f5229edc3ce8e4b2791460cdfabf5a`.
 
 ### Conservative Globally Deduplicated Result
 
 | Metric | Result |
 | --- | ---: |
-| Unique source files | 3,094 |
-| Code lines | 374,221 |
-| Comment lines | 10,092 |
-| Blank lines | 32,498 |
-| Physical lines | 416,811 |
+| Unique source files | 3,527 |
+| Code lines | 428,566 |
+| Comment lines | 11,822 |
+| Blank lines | 34,871 |
+| Physical lines | 475,259 |
 
-The profile rounds the code result down to **370k+**.
+The profile rounds the code result down to **420k+**.
 
 ### Per-Repository Aggregate
 
@@ -26,12 +26,12 @@ This view deduplicates files inside each repository and then adds the repository
 
 | Repository group | Repositories | Source files | Code lines |
 | --- | ---: | ---: | ---: |
-| Production travel platforms | 5 | 1,515 | 224,916 |
+| Production travel platforms | 5 | 2,006 | 275,187 |
 | Reusable CMS and platform foundations | 2 | 280 | 29,592 |
 | Desktop application | 1 | 99 | 8,718 |
-| Security tooling | 3 | 731 | 64,550 |
-| Other owned applications and earlier work | 10 | 725 | 64,178 |
-| **Total** | **21** | **3,350** | **391,954** |
+| Security tooling | 3 | 1,233 | 122,887 |
+| Other owned applications and earlier work | 10 | 270 | 18,958 |
+| **Total** | **21** | **3,888** | **455,342** |
 
 ## Language Breakdown
 
@@ -39,18 +39,18 @@ The globally deduplicated result contains:
 
 | Language | Files | Code lines |
 | --- | ---: | ---: |
-| TypeScript | 2,442 | 285,291 |
-| Rust | 87 | 55,394 |
+| TypeScript | 2,546 | 283,633 |
+| Rust | 165 | 100,477 |
+| Python | 56 | 10,800 |
 | C# | 98 | 8,718 |
-| CSS | 25 | 6,185 |
-| JavaScript | 274 | 5,226 |
+| JavaScript | 379 | 6,421 |
+| CSS | 25 | 5,755 |
 | Go | 23 | 4,596 |
-| Python | 27 | 3,535 |
-| Astro | 24 | 2,317 |
-| HTML | 6 | 1,409 |
-| SQL | 52 | 1,156 |
-| JSX | 31 | 289 |
-| Shell | 2 | 63 |
+| Astro | 30 | 2,801 |
+| JSX | 122 | 1,608 |
+| HTML | 7 | 1,410 |
+| SQL | 55 | 1,386 |
+| Shell | 18 | 919 |
 | Java | 3 | 42 |
 
 ## Included Source Types

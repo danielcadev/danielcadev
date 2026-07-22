@@ -36,8 +36,8 @@ I am an ongoing contributor to [codex-desktop-linux](https://github.com/ilysenko
 
 I also perform evidence-backed security reviews of active open-source applications and submit focused upstream remediations.
 
-- Reproduced an API-key boundary bypass in the published open-wa v5 API package that exposed management, integration, QR, and browser-control surfaces.
-- Submitted [open-wa/wa-automate-nodejs#3388](https://github.com/open-wa/wa-automate-nodejs/pull/3388) with a minimal boundary fix, regression tests, a signed commit, DCO, and a Changesets release entry.
+- Prioritize actively maintained projects with independent contributor activity, responsive review practices, and clear security-reporting channels.
+- Reproduce suspected vulnerabilities against released and current revisions before reporting them privately to maintainers.
 - Keep findings scoped to demonstrated impact, preserve compatibility where safe, and separate scanner output from manual validation.
 
 ## Security And Architecture
@@ -63,7 +63,7 @@ Benchmark results are reported with lane boundaries and limitations intact; they
 
 ## Evidence And Scale
 
-A conservative July 2026 audit measures **370k+ unique, non-generated source-code lines across 21 maintained repositories**, including **55k+ lines of Rust**. This is supporting context, not a productivity score. It excludes dependencies, lockfiles, documentation, generated and minified files, build output, and duplicate files.
+A conservative July 2026 audit measures **420k+ unique, non-generated source-code lines across 21 maintained repositories**, including **100k+ lines of Rust**. This is supporting context, not a productivity score. It excludes dependencies, lockfiles, documentation, generated and minified files, build output, and duplicate files.
 
 [Read the measurement methodology, exclusions, and aggregate breakdown.](./CODEBASE_METRICS.md)
 
