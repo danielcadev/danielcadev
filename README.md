@@ -1,6 +1,6 @@
 # Daniel Castrillon
 
-**Software Engineer | Linux & Open Source | Platform Engineering | Application Security**
+**Software Engineer | Linux & Open Source | Rust Security Tooling | Application Security**
 
 [Portfolio](https://danielcadev.github.io) | [Email](mailto:daniel.ca.pe207@gmail.com) | [Secure](https://github.com/usesecure) | Madrid, Colombia
 
@@ -12,6 +12,7 @@ I use coding agents as engineering tools, with typed contracts, automated verifi
 
 - Linux desktop reliability, packaging, update workflows, and cross-distribution compatibility.
 - Local-first static analysis, reproducible security measurement, and evidence contracts in Rust.
+- Responsible upstream remediation of security defects in actively maintained open-source projects.
 - Security review and hardening for AI-generated and rapidly evolving codebases.
 - Platform architecture across authentication, data, media, administration, and cloud delivery.
 - Reusable developer tooling with measurable tests and explicit operational boundaries.
@@ -21,7 +22,7 @@ I use coding agents as engineering tools, with typed contracts, automated verifi
 | Project | Engineering scope | Evidence |
 | --- | --- | --- |
 | Codex Desktop Linux | Ongoing upstream collaboration on Linux reliability, Rust updater inputs, per-user browser integration, CI hardening, dependency maintenance, and regression coverage | [Merged contributions](https://github.com/ilysenko/codex-desktop-linux/pulls?q=is%3Apr+author%3Adanielcadev+is%3Amerged) |
-| UseSecure | Rust analyzer and reproducible benchmark infrastructure, paired with an Open Agent Skill for evidence-backed security review and hardening | [Engine](https://github.com/usesecure/secure-engine) · [Bench](https://github.com/usesecure/secure-bench) · [Skill](https://github.com/usesecure/secure-skill) |
+| UseSecure | Local-first Rust analyzer, blinded and evidence-sealed benchmark infrastructure, and an Open Agent Skill for security review and hardening | [Engine v0.1.8](https://github.com/usesecure/secure-engine/releases/tag/v0.1.8) · [Bench](https://github.com/usesecure/secure-bench) · [Skill](https://github.com/usesecure/secure-skill) |
 | CMS Nova | Reusable headless CMS foundation with typed, schema-driven content, hybrid persistence, template tooling, and role-based administration | [cms-nova-template](https://github.com/danielcadev/cms-nova-template) |
 | Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, AWS-backed media, and deployment workflows | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
@@ -33,13 +34,23 @@ I am an ongoing contributor to [codex-desktop-linux](https://github.com/ilysenko
 - Hardened privileged CI actions and updated vulnerable native-module build dependencies.
 - Added regression coverage and validated changes through Rust tests, script tests, and Fedora package rebuilds.
 
+I also perform evidence-backed security reviews of active open-source applications and submit focused upstream remediations.
+
+- Reproduced an API-key boundary bypass in the published open-wa v5 API package that exposed management, integration, QR, and browser-control surfaces.
+- Submitted [open-wa/wa-automate-nodejs#3388](https://github.com/open-wa/wa-automate-nodejs/pull/3388) with a minimal boundary fix, regression tests, a signed commit, DCO, and a Changesets release entry.
+- Keep findings scoped to demonstrated impact, preserve compatibility where safe, and separate scanner output from manual validation.
+
 ## Security And Architecture
 
 - Documented and drove remediation of 24 high-severity or critical findings across production systems.
 - Designed Zero-Trust RBAC controls across Server Actions and REST endpoints.
 - Developed a capability- and invariant-centered review method for AI-assisted changes.
+- Published Secure Engine v0.1.8 with reproducible Fedora packaging, signed release provenance, deterministic analysis, and local-first execution.
+- Built Secure Bench through independently frozen holdouts, one-shot scanner campaigns, immutable evidence, post-open root-cause analysis, and corrected scoring contracts.
 - Delivered an invited talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
 - Review focus includes authentication, authorization dominance, tenant isolation, secrets, storage, webhooks, payments, and fail-open behavior.
+
+Benchmark results are reported with lane boundaries and limitations intact; they are evidence for engineering decisions, not broad superiority claims.
 
 ## Engineering Stack
 
@@ -58,7 +69,7 @@ A conservative July 2026 audit measures **370k+ unique, non-generated source-cod
 
 ## Background
 
-I lead software architecture and AI-assisted engineering at Mitiquete SAS while contributing to open-source Linux tooling and developing public security-review infrastructure. I am completing a B.Sc. in Software Engineering at Politecnico Grancolombiano (expected 2027, GPA 4.63/5.0).
+I lead software architecture and AI-assisted engineering at Mitiquete SAS while contributing to open-source Linux tooling and developing public security-review infrastructure.
 
 Spanish is my native language, and I work professionally in English.
 
