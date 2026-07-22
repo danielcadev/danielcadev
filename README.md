@@ -1,71 +1,50 @@
 # Daniel Castrillon
 
-**Software Engineer | Linux & Open Source | Rust Security Tooling | Application Security**
+**Software Engineer | Rust Security Tooling | Linux & Open Source | Application Security**
 
-[Portfolio](https://danielcadev.github.io) | [Email](mailto:daniel.ca.pe207@gmail.com) | [Secure](https://github.com/usesecure) | Madrid, Colombia
+[Portfolio](https://danielcadev.github.io) · [Email](mailto:daniel.ca.pe207@gmail.com) · [UseSecure](https://github.com/usesecure) · Madrid, Colombia
 
-I build and harden production software across Linux tooling, Rust security infrastructure, full-stack platforms, cloud delivery, and application security. My work combines upstream open-source contributions, technical ownership of production systems, and disciplined AI-assisted engineering.
+I build security tooling, Linux infrastructure, and production web systems. My work combines upstream open-source contributions, local-first static analysis, reproducible engineering, and hands-on ownership of authentication, authorization, data, and deployment boundaries.
 
-I use coding agents as engineering tools, with typed contracts, automated verification, authorization review, and human validation around production changes. The goal is not faster code generation by itself; it is reliable software with evidence behind it.
+I use coding agents as engineering tools: scoped tasks, typed contracts, automated verification, security review, and human validation. The objective is reliable software with evidence behind it—not code generation for its own sake.
 
-## Current Focus
+## Selected Work
 
-- Linux desktop reliability, packaging, update workflows, and cross-distribution compatibility.
-- Local-first static analysis, reproducible security measurement, and evidence contracts in Rust.
-- Responsible upstream remediation of security defects in actively maintained open-source projects.
-- Security review and hardening for AI-generated and rapidly evolving codebases.
-- Platform architecture across authentication, data, media, administration, and cloud delivery.
-- Reusable developer tooling with measurable tests and explicit operational boundaries.
-
-## Selected Engineering Work
-
-| Project | Engineering scope | Evidence |
+| Project | What I work on | Evidence |
 | --- | --- | --- |
-| Codex Desktop Linux | Ongoing upstream collaboration on Linux reliability, Rust updater inputs, per-user browser integration, CI hardening, dependency maintenance, and regression coverage | [Merged contributions](https://github.com/ilysenko/codex-desktop-linux/pulls?q=is%3Apr+author%3Adanielcadev+is%3Amerged) |
-| UseSecure | Local-first Rust analyzer, blinded and evidence-sealed benchmark infrastructure, and an Open Agent Skill for security review and hardening | [Engine v0.1.8](https://github.com/usesecure/secure-engine/releases/tag/v0.1.8) · [Bench](https://github.com/usesecure/secure-bench) · [Skill](https://github.com/usesecure/secure-skill) |
-| CMS Nova | Reusable headless CMS foundation with typed, schema-driven content, hybrid persistence, template tooling, and role-based administration | [cms-nova-template](https://github.com/danielcadev/cms-nova-template) |
-| Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, AWS-backed media, and deployment workflows | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
+| Codex Desktop Linux | Linux reliability, Rust updater inputs, per-user browser integration, CI hardening, native dependencies, and regression coverage | [Merged contributions](https://github.com/ilysenko/codex-desktop-linux/pulls?q=is%3Apr+author%3Adanielcadev+is%3Amerged) |
+| UseSecure | A local-first Rust analyzer, independently frozen security benchmarks, and a reusable workflow for evidence-backed review | [Engine v0.1.8](https://github.com/usesecure/secure-engine/releases/tag/v0.1.8) · [Bench](https://github.com/usesecure/secure-bench) |
+| CMS Nova | A reusable headless CMS foundation with schema-driven content, hybrid persistence, template tooling, and role-based administration | [Repository](https://github.com/danielcadev/cms-nova-template) |
+| Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, and AWS-backed media | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
-## Open Source Contribution
+## Open Source
 
-I am an ongoing contributor to [codex-desktop-linux](https://github.com/ilysenko/codex-desktop-linux), working across Rust, JavaScript, shell tooling, Nix dependencies, and GitHub Actions.
+I contribute focused fixes to actively maintained projects, primarily across Rust, TypeScript, JavaScript, shell tooling, Nix, and GitHub Actions.
 
-- Repaired updater fallback inputs and per-user browser-integration socket discovery.
-- Hardened privileged CI actions and updated vulnerable native-module build dependencies.
+- Repaired updater fallback inputs and per-user browser-integration socket discovery in Codex Desktop Linux.
+- Hardened privileged CI actions and vulnerable native-module build dependencies.
 - Added regression coverage and validated changes through Rust tests, script tests, and Fedora package rebuilds.
+- Perform evidence-backed security reviews and use private disclosure channels when a finding could affect users.
 
-I also perform evidence-backed security reviews of active open-source applications and submit focused upstream remediations.
+I prioritize projects with real contributor activity, responsive maintainers, reproducible issues, and changes small enough to review confidently.
 
-- Prioritize actively maintained projects with independent contributor activity, responsive review practices, and clear security-reporting channels.
-- Reproduce suspected vulnerabilities against released and current revisions before reporting them privately to maintainers.
-- Keep findings scoped to demonstrated impact, preserve compatibility where safe, and separate scanner output from manual validation.
+## Security Engineering
 
-## Security And Architecture
-
-- Documented and drove remediation of 24 high-severity or critical findings across production systems.
-- Designed Zero-Trust RBAC controls across Server Actions and REST endpoints.
+- Built and published Secure Engine v0.1.8 with deterministic analysis, reproducible Fedora packaging, signed provenance, and local-first execution.
+- Built Secure Bench around blinded holdouts, one-shot scanner campaigns, immutable evidence, independent verification, and corrected scoring contracts.
+- Led authorization, tenant-isolation, secret-handling, and exposed-route hardening across production systems.
 - Developed a capability- and invariant-centered review method for AI-assisted changes.
-- Published Secure Engine v0.1.8 with reproducible Fedora packaging, signed release provenance, deterministic analysis, and local-first execution.
-- Built Secure Bench through independently frozen holdouts, one-shot scanner campaigns, immutable evidence, post-open root-cause analysis, and corrected scoring contracts.
 - Delivered an invited talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
-- Review focus includes authentication, authorization dominance, tenant isolation, secrets, storage, webhooks, payments, and fail-open behavior.
 
-Benchmark results are reported with lane boundaries and limitations intact; they are evidence for engineering decisions, not broad superiority claims.
+Benchmark results retain their lane boundaries and documented limitations. They support engineering decisions; they are not broad superiority claims.
 
-## Engineering Stack
+## Core Stack
 
-- **Languages:** TypeScript, Rust, JavaScript, Go, Python, C#, SQL, Java, C, C++
-- **Web and data:** Next.js, React, Astro, Node.js, PostgreSQL, Prisma, Tailwind CSS
-- **Systems and delivery:** Linux, Fedora, Docker, Git, pnpm/Turborepo, Vercel, Coolify, Hetzner
-- **Cloud:** AWS S3, SES, VPS operations, media and deployment workflows
-- **Security:** Zero-Trust RBAC, authorization-boundary review, Server Action and API security, secrets, structural audits
-- **AI engineering:** OpenAI Codex/GPT, Claude Code, Gemini, OpenRouter, context construction, task decomposition, failure-mode analysis
-
-## Evidence And Scale
-
-A conservative July 2026 audit measures **420k+ unique, non-generated source-code lines across 21 maintained repositories**, including **100k+ lines of Rust**. This is supporting context, not a productivity score. It excludes dependencies, lockfiles, documentation, generated and minified files, build output, and duplicate files.
-
-[Read the measurement methodology, exclusions, and aggregate breakdown.](./CODEBASE_METRICS.md)
+- **Languages:** Rust, TypeScript, JavaScript, Python, SQL, shell
+- **Web and data:** Next.js, React, Node.js, PostgreSQL, Prisma
+- **Systems and delivery:** Linux, Fedora, Docker, Git, GitHub Actions, Nix, Vercel, Hetzner
+- **Security:** authentication and authorization boundaries, tenant isolation, secrets, storage, webhooks, static analysis, evidence contracts
+- **Agent engineering:** context construction, task decomposition, evaluation, failure-mode analysis, and verification-driven workflows
 
 ## Background
 
@@ -75,6 +54,6 @@ Spanish is my native language, and I work professionally in English.
 
 ## Contact
 
-- Portfolio: [danielcadev.github.io](https://danielcadev.github.io)
-- Email: [daniel.ca.pe207@gmail.com](mailto:daniel.ca.pe207@gmail.com)
-- GitHub: [danielcadev](https://github.com/danielcadev)
+- [danielcadev.github.io](https://danielcadev.github.io)
+- [daniel.ca.pe207@gmail.com](mailto:daniel.ca.pe207@gmail.com)
+- [github.com/danielcadev](https://github.com/danielcadev)
