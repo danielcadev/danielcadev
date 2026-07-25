@@ -12,19 +12,18 @@ I use coding agents as engineering tools: scoped tasks, typed contracts, automat
 
 | Project | What I work on | Evidence |
 | --- | --- | --- |
-| Codex Desktop Linux | Linux reliability, Rust updater inputs, per-user browser integration, CI hardening, native dependencies, and regression coverage | [Merged contributions](https://github.com/ilysenko/codex-desktop-linux/pulls?q=is%3Apr+author%3Adanielcadev+is%3Amerged) |
+| Open-source contributions | Focused fixes across Linux tooling, Rust applications, developer tooling, CI, dependencies, and regression coverage | [Contribution activity](https://github.com/search?q=is%3Apr+author%3Adanielcadev&type=pullrequests) |
 | UseSecure | A local-first Rust analyzer, independently frozen security benchmarks, and a reusable workflow for evidence-backed review | [Engine v0.1.8](https://github.com/usesecure/secure-engine/releases/tag/v0.1.8) · [Bench](https://github.com/usesecure/secure-bench) |
 | CMS Nova | A reusable headless CMS foundation with schema-driven content, hybrid persistence, template tooling, and role-based administration | [Repository](https://github.com/danielcadev/cms-nova-template) |
 | Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, and AWS-backed media | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
 ## Open Source
 
-I contribute focused fixes to actively maintained projects, primarily across Rust, TypeScript, JavaScript, shell tooling, Nix, and GitHub Actions.
+I contribute small, reviewable fixes across several actively maintained open-source projects, primarily in Rust, TypeScript, JavaScript, shell tooling, Nix, and GitHub Actions.
 
-- Repaired updater fallback inputs and per-user browser-integration socket discovery in Codex Desktop Linux.
-- Hardened privileged CI actions and vulnerable native-module build dependencies.
-- Added regression coverage and validated changes through Rust tests, script tests, and Fedora package rebuilds.
-- Perform evidence-backed security reviews and use private disclosure channels when a finding could affect users.
+- Recent upstream work spans parser and type-checking consistency, CLI tool detection, Linux desktop integration, CI hardening, dependency maintenance, and targeted state-management bugs.
+- I match repository-local conventions, reproduce issues before changing code, and validate fixes with focused regression tests and project-required checks.
+- I perform evidence-backed security reviews and use private disclosure channels when a finding could affect users.
 
 I prioritize projects with real contributor activity, responsive maintainers, reproducible issues, and changes small enough to review confidently.
 
