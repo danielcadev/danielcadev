@@ -1,6 +1,6 @@
 # Daniel Castrillon
 
-**Software Engineer | Rust Security Tooling | Linux & Open Source | Application Security**
+**Software Engineer | Product Security | Rust & Linux Tooling | Open Source**
 
 [Portfolio](https://danielcadev.github.io) · [Email](mailto:daniel.ca.pe207@gmail.com) · [UseSecure](https://github.com/usesecure) · Madrid, Colombia
 
@@ -21,7 +21,7 @@ I use coding agents as engineering tools: scoped tasks, typed contracts, automat
 
 I contribute small, reviewable fixes across several actively maintained open-source projects, primarily in Rust, TypeScript, JavaScript, shell tooling, Nix, and GitHub Actions.
 
-- Recent upstream work spans parser and type-checking consistency, CLI tool detection, Linux desktop integration, CI hardening, dependency maintenance, and targeted state-management bugs.
+- Recent upstream work spans structured-data serialization, CLI tool detection, Linux desktop and AppImage integration, CI hardening, dependency maintenance, playback flows, and targeted state-management bugs.
 - I match repository-local conventions, reproduce issues before changing code, and validate fixes with focused regression tests and project-required checks.
 - I perform evidence-backed security reviews and use private disclosure channels when a finding could affect users.
 
@@ -31,6 +31,8 @@ I prioritize projects with real contributor activity, responsive maintainers, re
 
 - Built and published Secure Engine v0.1.8 with deterministic analysis, reproducible Fedora packaging, signed provenance, and local-first execution.
 - Built Secure Bench around blinded holdouts, one-shot scanner campaigns, immutable evidence, independent verification, and corrected scoring contracts.
+- Developed a reusable security-review workflow that combines structural analysis, attacker-path validation, repository context, and publication gates.
+- Reported reproducible authentication and authorization issues through coordinated private disclosure channels, with accepted reports under maintainer review.
 - Led authorization, tenant-isolation, secret-handling, and exposed-route hardening across production systems.
 - Developed a capability- and invariant-centered review method for AI-assisted changes.
 - Delivered an invited talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
