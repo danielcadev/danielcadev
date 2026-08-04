@@ -1,55 +1,38 @@
 # Daniel Castrillon
 
-**Software Engineer | Product Security | Rust & Linux Tooling | Open Source**
+**Software Engineer focused on security, Rust tooling, and Linux**
 
 [Portfolio](https://danielcadev.github.io) · [Email](mailto:daniel.ca.pe207@gmail.com) · [UseSecure](https://github.com/usesecure) · Madrid, Colombia
 
-I build security tooling, Linux infrastructure, and production web systems. My work combines upstream open-source contributions, local-first static analysis, reproducible engineering, and hands-on ownership of authentication, authorization, data, and deployment boundaries.
+I build developer tools and production systems where reliability and security matter. My work spans Rust and TypeScript, Linux applications, static analysis, authentication and authorization, data platforms, and cloud delivery.
 
-I use coding agents as engineering tools: scoped tasks, typed contracts, automated verification, security review, and human validation. The objective is reliable software with evidence behind it—not code generation for its own sake.
+I use coding agents within a disciplined engineering workflow: scoped tasks, automated checks, security review, and human validation.
+
+## Highlights
+
+- Built and published Secure Engine, a local-first Rust security analyzer. A controlled large-repository optimization reduced end-to-end analysis time from about 119 seconds to 14 seconds without changing its findings.
+- Modernized a production travel platform while preserving indexed routes, content, metadata, and search visibility, then automated quotation and customer follow-up workflows that were previously manual.
+- Reported a security issue to RustDesk through coordinated private disclosure; the maintainers acknowledged the report and merged the related fix.
+- Delivered an invited talk to researchers at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
 
 ## Selected Work
 
-| Project | What I work on | Evidence |
+| Project | Work and outcome | Evidence |
 | --- | --- | --- |
-| Open-source contributions | Focused fixes across Linux tooling, Rust applications, developer tooling, CI, dependencies, and regression coverage | [Contribution activity](https://github.com/search?q=is%3Apr+author%3Adanielcadev&type=pullrequests) |
-| UseSecure | A local-first Rust analyzer, independently frozen security benchmarks, and a reusable workflow for evidence-backed review | [Engine v0.1.9](https://github.com/usesecure/secure-engine/releases/tag/v0.1.9) · [Bench](https://github.com/usesecure/secure-bench) |
-| CMS Nova | A reusable headless CMS foundation with schema-driven content, hybrid persistence, template tooling, and role-based administration | [Repository](https://github.com/danielcadev/cms-nova-template) |
-| Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, and AWS-backed media | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
+| UseSecure | Local-first Rust analysis, reproducible releases, performance engineering, and reproducible benchmark infrastructure | [Engine v0.1.10-rc2](https://github.com/usesecure/secure-engine/releases/tag/v0.1.10-rc2) · [Bench](https://github.com/usesecure/secure-bench) |
+| Production platforms | Modernized customer-facing and operational systems across discovery, quotations, booking, publishing, authentication, PostgreSQL, and AWS-backed media | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
+| Open source | Small, reviewable fixes across Rust and Linux tooling, CLI behavior, desktop integration, CI, dependencies, and regression coverage | [Contribution activity](https://github.com/search?q=is%3Apr+author%3Adanielcadev&type=pullrequests) |
+| CMS Nova | Reusable headless CMS foundation with schema-driven content, hybrid persistence, template tooling, and role-based administration | [Repository](https://github.com/danielcadev/cms-nova-template) |
 
-## Open Source
-
-I contribute small, reviewable fixes across several actively maintained open-source projects, primarily in Rust, TypeScript, JavaScript, shell tooling, Nix, and GitHub Actions.
-
-- Recent upstream work spans structured-data serialization, CLI tool detection, Linux desktop and AppImage integration, CI hardening, dependency maintenance, playback flows, and targeted state-management bugs.
-- I match repository-local conventions, reproduce issues before changing code, and validate fixes with focused regression tests and project-required checks.
-- I perform evidence-backed security reviews and use private disclosure channels when a finding could affect users.
-
-I prioritize projects with real contributor activity, responsive maintainers, reproducible issues, and changes small enough to review confidently.
-
-## Security Engineering
-
-- Built and published Secure Engine v0.1.9 with deterministic analysis, reproducible Fedora packaging, signed provenance, and local-first execution.
-- Built Secure Bench around blinded holdouts, one-shot scanner campaigns, immutable evidence, independent verification, and corrected scoring contracts.
-- Developed a reusable security-review workflow that combines structural analysis, attacker-path validation, repository context, and publication gates.
-- Reported a security issue to RustDesk through coordinated private disclosure; the maintainers acknowledged the report and merged the related fix.
-- Led authorization, tenant-isolation, secret-handling, and exposed-route hardening across production systems.
-- Developed a capability- and invariant-centered review method for AI-assisted changes.
-- Delivered an invited talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
-
-Benchmark results retain their lane boundaries and documented limitations. They support engineering decisions; they are not broad superiority claims.
-
-## Core Stack
+## Engineering Focus
 
 - **Languages:** Rust, TypeScript, JavaScript, Python, SQL, shell
-- **Web and data:** Next.js, React, Node.js, PostgreSQL, Prisma
-- **Systems and delivery:** Linux, Fedora, Docker, Git, GitHub Actions, Nix, Vercel, Hetzner
-- **Security:** authentication and authorization boundaries, tenant isolation, secrets, storage, webhooks, static analysis, evidence contracts
-- **Agent engineering:** context construction, task decomposition, evaluation, failure-mode analysis, and verification-driven workflows
+- **Platforms:** Linux, Next.js, React, Node.js, PostgreSQL, Prisma, Docker, GitHub Actions, Nix, AWS, Vercel, Hetzner
+- **Security:** authentication, authorization, tenant isolation, secrets, storage, webhooks, static analysis, and coordinated disclosure
 
 ## Background
 
-I lead software architecture and AI-assisted engineering at Mitiquete SAS while contributing to open-source Linux tooling and developing public security-review infrastructure.
+I lead software architecture and AI-assisted engineering at Mitiquete SAS while contributing to open-source tooling and developing public security infrastructure.
 
 Spanish is my native language, and I work professionally in English.
 
