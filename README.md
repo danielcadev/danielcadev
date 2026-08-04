@@ -13,7 +13,7 @@ I use coding agents as engineering tools: scoped tasks, typed contracts, automat
 | Project | What I work on | Evidence |
 | --- | --- | --- |
 | Open-source contributions | Focused fixes across Linux tooling, Rust applications, developer tooling, CI, dependencies, and regression coverage | [Contribution activity](https://github.com/search?q=is%3Apr+author%3Adanielcadev&type=pullrequests) |
-| UseSecure | A local-first Rust analyzer, independently frozen security benchmarks, and a reusable workflow for evidence-backed review | [Engine v0.1.8](https://github.com/usesecure/secure-engine/releases/tag/v0.1.8) · [Bench](https://github.com/usesecure/secure-bench) |
+| UseSecure | A local-first Rust analyzer, independently frozen security benchmarks, and a reusable workflow for evidence-backed review | [Engine v0.1.9](https://github.com/usesecure/secure-engine/releases/tag/v0.1.9) · [Bench](https://github.com/usesecure/secure-bench) |
 | CMS Nova | A reusable headless CMS foundation with schema-driven content, hybrid persistence, template tooling, and role-based administration | [Repository](https://github.com/danielcadev/cms-nova-template) |
 | Production platforms | Architecture and delivery across booking, B2B operations, publishing, localization, authentication, PostgreSQL, and AWS-backed media | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 
@@ -29,10 +29,10 @@ I prioritize projects with real contributor activity, responsive maintainers, re
 
 ## Security Engineering
 
-- Built and published Secure Engine v0.1.8 with deterministic analysis, reproducible Fedora packaging, signed provenance, and local-first execution.
+- Built and published Secure Engine v0.1.9 with deterministic analysis, reproducible Fedora packaging, signed provenance, and local-first execution.
 - Built Secure Bench around blinded holdouts, one-shot scanner campaigns, immutable evidence, independent verification, and corrected scoring contracts.
 - Developed a reusable security-review workflow that combines structural analysis, attacker-path validation, repository context, and publication gates.
-- Reported reproducible authentication and authorization issues through coordinated private disclosure channels, with accepted reports under maintainer review.
+- Reported reproducible security issues through coordinated private disclosure channels, including reports acknowledged by maintainers and remediated through merged fixes.
 - Led authorization, tenant-isolation, secret-handling, and exposed-route hardening across production systems.
 - Developed a capability- and invariant-centered review method for AI-assisted changes.
 - Delivered an invited talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
