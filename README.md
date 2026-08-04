@@ -12,14 +12,14 @@ I use coding agents within a disciplined engineering workflow: scoped tasks, aut
 
 - Built and published Secure Engine, a local-first Rust security analyzer. A controlled large-repository optimization reduced end-to-end analysis time from about 119 seconds to 14 seconds without changing its findings.
 - Modernized a production travel platform while preserving indexed routes, content, metadata, and search visibility, then automated quotation and customer follow-up workflows that were previously manual.
-- Reported a security issue to RustDesk through coordinated private disclosure; the maintainers acknowledged the report and merged the related fix.
-- Delivered an invited talk to researchers at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
+- Reported a security issue to RustDesk through coordinated private disclosure; the maintainers acknowledged the report and [merged the related fix](https://github.com/rustdesk/rustdesk/pull/15693).
+- Delivered an invited technical talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
 
 ## Selected Work
 
 | Project | Work and outcome | Evidence |
 | --- | --- | --- |
-| UseSecure | Local-first Rust analysis, reproducible releases, performance engineering, and reproducible benchmark infrastructure | [Engine v0.1.10-rc2](https://github.com/usesecure/secure-engine/releases/tag/v0.1.10-rc2) · [Bench](https://github.com/usesecure/secure-bench) |
+| UseSecure | Local-first Rust analysis, signed releases, performance engineering, and reproducible benchmark infrastructure | [Engine v0.1.10-rc2](https://github.com/usesecure/secure-engine/releases/tag/v0.1.10-rc2) · [Bench](https://github.com/usesecure/secure-bench) |
 | Production platforms | Modernized customer-facing and operational systems across discovery, quotations, booking, publishing, authentication, PostgreSQL, and AWS-backed media | [Mitiquete](https://mitiqueteonline.com) · [Conociendo Colombia](https://conociendocolombia.com) · [TripEuropa](https://tripeuropa.eu) |
 | Open source | Small, reviewable fixes across Rust and Linux tooling, CLI behavior, desktop integration, CI, dependencies, and regression coverage | [Contribution activity](https://github.com/search?q=is%3Apr+author%3Adanielcadev&type=pullrequests) |
 | CMS Nova | Reusable headless CMS foundation with schema-driven content, hybrid persistence, template tooling, and role-based administration | [Repository](https://github.com/danielcadev/cms-nova-template) |
@@ -32,7 +32,7 @@ I use coding agents within a disciplined engineering workflow: scoped tasks, aut
 
 ## Background
 
-I lead software architecture and AI-assisted engineering at Mitiquete SAS while contributing to open-source tooling and developing public security infrastructure.
+I lead software architecture and AI-assisted engineering at Mitiquete SAS while contributing to open-source tooling and developing public security tooling and evaluation infrastructure.
 
 Spanish is my native language, and I work professionally in English.
 
