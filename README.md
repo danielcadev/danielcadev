@@ -32,7 +32,7 @@ I prioritize projects with real contributor activity, responsive maintainers, re
 - Built and published Secure Engine v0.1.9 with deterministic analysis, reproducible Fedora packaging, signed provenance, and local-first execution.
 - Built Secure Bench around blinded holdouts, one-shot scanner campaigns, immutable evidence, independent verification, and corrected scoring contracts.
 - Developed a reusable security-review workflow that combines structural analysis, attacker-path validation, repository context, and publication gates.
-- Reported reproducible security issues through coordinated private disclosure channels, including reports acknowledged by maintainers and remediated through merged fixes.
+- Reported a security issue to RustDesk through coordinated private disclosure; the maintainers acknowledged the report and merged the related fix.
 - Led authorization, tenant-isolation, secret-handling, and exposed-route hardening across production systems.
 - Developed a capability- and invariant-centered review method for AI-assisted changes.
 - Delivered an invited talk at the Max Planck Institute for Security and Privacy on structural security risks in AI-assisted software systems.
