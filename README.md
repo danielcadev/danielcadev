@@ -11,7 +11,7 @@ I use coding agents within a disciplined engineering workflow: scoped tasks, det
 ## Highlights
 
 - Built [SecureFlow](https://github.com/danielcadev/secureflow), a local-first evidence platform that connects deterministic analysis, contextual security review, reproducible benchmarks, a versioned knowledge base, and offline API-inventory research. Human validation remains authoritative; the project does not claim autonomous vulnerability validation or human replacement.
-- Built and published Secure Engine, a local-first Rust security analyzer. A controlled large-repository optimization reduced end-to-end analysis time from about 119 seconds to 14 seconds without changing its findings.
+- Built and published Secure Engine, a local-first Rust security analyzer for JavaScript and TypeScript that follows untrusted data across files and helpers, then emits reproducible source-to-sink evidence through CLI, desktop UI, JSON, and SARIF.
 - Modernized a production travel platform while preserving indexed routes, content, metadata, and search visibility, then automated quotation and customer follow-up workflows that were previously manual.
 - Discovered and responsibly disclosed [GHSA-hc5h-gqhc-4h79](https://github.com/triggerdotdev/trigger.dev/security/advisories/GHSA-hc5h-gqhc-4h79), a Moderate integration CSRF vulnerability in Trigger.dev's Slack OAuth flow; credited as the reporter and fixed in version 4.5.12.
 - Reported a security issue to RustDesk through coordinated private disclosure; the maintainers acknowledged the report and [merged the related fix](https://github.com/rustdesk/rustdesk/pull/15693).
